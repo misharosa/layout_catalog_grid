@@ -3,8 +3,6 @@
   grid-template-columns: repeat(1, 200px);
   justify-content: center;
   gap: 48px;
-  max-width: 944px;
-  margin: 0 auto;
 
   @media (min-width: 488px) {
     grid-template-columns: repeat(2, 200px);
@@ -19,7 +17,7 @@
   }
 
   &__card {
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     height: 300px;
